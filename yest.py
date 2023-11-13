@@ -18,3 +18,4 @@ def png_to_jpg(infich,outfich):
         print('pa gen fich konsa')
 
 png_to_jpg()
+
