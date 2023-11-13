@@ -8,7 +8,6 @@ def jpg_to_png (infile, outfile) :
         return
     except IOError as e:
         print(e)
-        return
 
     pngd = b'\x89PNG\r\n\x1a\n' + jpgd[2:]
     try :
